@@ -6,9 +6,9 @@ import FooterContainer from '../components/FooterContainer.vue';
 <template>
 
   <main>
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-7xl my-60 lg:my-0 mx-auto">
       <div class="w-full min-h-screen">
-        <div class="grid flex items-center justify-items-center gap-8 mx-10 h-screen lg:grid-cols-2">
+        <div class="grid flex items-center justify-items-center gap-8 mx-10 lg:h-screen lg:grid-cols-2">
           <div class="flex flex-col">
             <p class="text-2xl font-medium">In development</p>
             <h1 class="mb-4 text-8xl font-bold">Mhugin</h1>
@@ -20,7 +20,7 @@ import FooterContainer from '../components/FooterContainer.vue';
             <a href="https://mhugin.beehiiv.com/subscribe" class="btn btn-primary text-2xl">Subscribe to the Newsletter</a>
           </div>
 
-          <div class="mockup-phone border-primary">
+          <div class="mockup-phone border-primary mt-24 lg:mt-0 puff-in-center">
             <div class="camera"></div>
             <div class="display">
               <div class="artboard artboard-demo w-80">
