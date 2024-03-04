@@ -13,9 +13,9 @@ import FooterContainer from '../components/FooterContainer.vue';
             <p class="text-2xl font-medium">In development</p>
             <h1 class="mb-4 text-8xl font-bold">Mhugin</h1>
             <p class="mb-6 max-w-lg text-2xl">
-              A GPS-based mobile game focussed on real life exploration resource management.<br/>
+              A GPS-based mobile game focussed on real life exploration and resource management.<br/>
               Coming to Android and iOS.<br/><br/>
-              Currently in early development. More information coming soon.
+              Currently in early development. More details coming soon.
             </p>
             <a href="https://mhugin.beehiiv.com/subscribe" class="btn btn-primary text-2xl">Subscribe to the Newsletter</a>
           </div>
