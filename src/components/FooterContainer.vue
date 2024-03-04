@@ -9,6 +9,4 @@
     <router-link to="/legal/legal-notice" class="link link-hover">Legal Notice</router-link>
     <router-link to="/legal/privacy-policy" class="link link-hover">Privacy policy</router-link>
   </nav>
-
-  <script async src="https://ackee.gymir.andrus.io/cooltrack.js" data-ackee-server="https://ackee.gymir.andrus.io" data-ackee-domain-id="a783645b-d06e-457e-b67f-2991c266a43e"></script>
 </template>
