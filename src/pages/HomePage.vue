@@ -21,7 +21,7 @@ library.add(faXTwitter, faRedditAlien);
               Coming to Android and iOS.<br/><br/>
               Currently in early development. More details coming soon!
             </p>
-            <a href="https://mhugin.beehiiv.com/subscribe" class="btn btn-primary text-2xl">Subscribe to the Newsletter</a>
+            <a href="https://mhugin.beehiiv.com/subscribe" class="btn btn-primary text-2xl h-auto">Subscribe to the Newsletter</a>
             <div class="mt-4 text-2xl flex flex-col items-center">
               <p>Or follow on</p>
               <div class="flex mt-4 gap-4">
@@ -31,10 +31,10 @@ library.add(faXTwitter, faRedditAlien);
             </div>
           </div>
 
-          <div class="mockup-phone border-primary mt-24 lg:mt-0 puff-in-center">
+          <div class="mockup-phone border-primary mt-24 lg:mt-0 puff-in-center max-w-full">
             <div class="camera"></div>
             <div class="display">
-              <div class="artboard artboard-demo w-80">
+              <div class="artboard artboard-demo w-80 max-w-full">
                 <img src="../assets/images/screenshot_map.png" />
               </div>
             </div>
