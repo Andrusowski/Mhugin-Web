@@ -74,11 +74,9 @@ library.add(faXTwitter, faRedditAlien);
   left: 0;
   right: 0;
   z-index: -1;
-
   display: block;
   width: 100%;
   height: 100%;
-  transform: scale(1.03);
   overflow:hidden;
   filter: blur(30px);
 }
