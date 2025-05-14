@@ -3,10 +3,11 @@ import FooterContainer from '../components/FooterContainer.vue';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faXTwitter, faRedditAlien } from '@fortawesome/free-brands-svg-icons';
 import MockupPhone from '@/components/MockupPhone.vue';
-import imageMap from '/src/assets/images/screenshot_map.png';
-import imageScout from '/src/assets/images/screenshot_scout.png';
-import imageBattle from '/src/assets/images/screenshot_battle.png';
-import imageShop from '/src/assets/images/screenshot_shop.png';
+import imageBg from '../assets/images/bg.png?format=webp';
+import imageMap from '../assets/images/screenshot_map.png?w=640&format=webp';
+import imageScout from '../assets/images/screenshot_scout.png?w=640&format=webp';
+import imageBattle from '../assets/images/screenshot_battle.png?w=640&format=webp';
+import imageShop from '../assets/images/screenshot_shop.png?w=640&format=webp';
 
 library.add(faXTwitter, faRedditAlien);
 
@@ -16,6 +17,7 @@ library.add(faXTwitter, faRedditAlien);
 
   <main class="flex flex-col items-center">
     <div class="main-content w-full mx-auto min-h-screen flex justify-center">
+      <div class="background" :style="{ background: `url(${imageBg})`, backgroundSize: 'cover' }"></div>
       <div class="grid max-w-7xl flex items-center justify-items-center my-60 lg:my-0 gap-8 mx-10 lg:h-screen lg:grid-cols-2">
         <div class="flex flex-col">
           <p class="text-2xl font-medium">In development</p>
@@ -65,4 +67,19 @@ library.add(faXTwitter, faRedditAlien);
   </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+.background {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.03);
+  overflow:hidden;
+  filter: blur(30px);
+}
+</style>
