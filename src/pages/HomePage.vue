@@ -3,7 +3,7 @@ import FooterContainer from '../components/FooterContainer.vue';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faXTwitter, faRedditAlien } from '@fortawesome/free-brands-svg-icons';
 import MockupPhone from '@/components/MockupPhone.vue';
-import imageBg from '../assets/images/bg.png?format=webp';
+import imageBg from '../assets/images/bg.png?w=500&format=webp';
 import imageMap from '../assets/images/screenshot_map.png?w=640&format=webp';
 import imageScout from '../assets/images/screenshot_scout.png?w=640&format=webp';
 import imageBattle from '../assets/images/screenshot_battle.png?w=640&format=webp';
