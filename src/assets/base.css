@@ -71,6 +71,7 @@ body {
     sans-serif;
   font-size: 14px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
