@@ -2,7 +2,11 @@
 import FooterContainer from '../components/FooterContainer.vue';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faXTwitter, faRedditAlien } from '@fortawesome/free-brands-svg-icons';
-import MockupPhone from '@/components/MockupPhone.vue'
+import MockupPhone from '@/components/MockupPhone.vue';
+import imageMap from '/src/assets/images/screenshot_map.png';
+import imageScout from '/src/assets/images/screenshot_scout.png';
+import imageBattle from '/src/assets/images/screenshot_battle.png';
+import imageShop from '/src/assets/images/screenshot_shop.png';
 
 library.add(faXTwitter, faRedditAlien);
 
@@ -29,11 +33,11 @@ library.add(faXTwitter, faRedditAlien);
           </div>
         </div>
 
-        <MockupPhone class="mt-24" img-src="/src/assets/images/screenshot_map.png"/>
+        <MockupPhone class="mt-24" :img-src="imageMap"/>
       </div>
     </div>
     <div class="grid max-w-7xl flex items-center justify-items-center gap-8 mx-10 my-15 lg:my-30 lg:grid-cols-2">
-      <MockupPhone class="order-2 lg:order-1" img-src="/src/assets/images/screenshot_map.png"/>
+      <MockupPhone class="order-2 lg:order-1" :img-src="imageScout"/>
       <div class="max-w-lg order-1 lg:order-2">
         <h2 class="text-5xl text-center lg:text-left">Conquer the world</h2>
         <p class="text-2xl text-center lg:text-left">Explore the worldwide grid and spread your influence cell by cell.</p>
@@ -45,11 +49,11 @@ library.add(faXTwitter, faRedditAlien);
         <h2 class="text-5xl text-center lg:text-left">Control the market</h2>
         <p class="text-2xl text-center lg:text-left">Research local market prices, find the best deals and sell your products to the highest bidder.</p>
       </div>
-      <MockupPhone img-src="/src/assets/images/screenshot_shop.png"/>
+      <MockupPhone :img-src="imageShop"/>
     </div>
 
     <div class="grid max-w-7xl flex items-center justify-items-center gap-8 mx-10 mt-15 mb-60 lg:my-30 lg:grid-cols-2">
-      <MockupPhone class="order-2 lg:order-1" img-src="/src/assets/images/screenshot_battle.png"/>
+      <MockupPhone class="order-2 lg:order-1" :img-src="imageBattle"/>
       <div class="max-w-lg order-1 lg:order-2">
         <h2 class="text-5xl text-center lg:text-left">Dominate the battlefield</h2>
         <p class="text-2xl text-center lg:text-left">Defeat roaming monsters to make each cell secure and gain access to its resources.</p>
