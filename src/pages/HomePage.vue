@@ -60,7 +60,7 @@ library.add(faXTwitter, faRedditAlien);
       </div>
     </div>
   </main>
-  <footer class="footer p-10 bg-neutral text-neutral-content text-xl">
+  <footer class="footer p-10 bg-black text-neutral-content text-xl">
     <FooterContainer />
   </footer>
 </template>
